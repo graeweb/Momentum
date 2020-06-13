@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Momentum </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+  <!-- 전체 프레임  -->
+  <div id="wrap" class="morning">
+    <!-- 구름구름 -->
+    <img src="img/cloud1.png" alt=""/>
+    <img src="img/cloud2.png" alt=""/>
+    
+    
+    <!-- Gretting -->
+    <h1 class="js-greetings greetings"></h1>
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    
+    
+    <!-- ToDo List -->
+    <article>
+      <p><strong>To Do </strong> List</p>
+      
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Wirte a to do"/>
+      </form>
+      <ol class="js-toDoList">
+      </ol>
+    </article>
+    <!-- 모바일 프레임  -->
+    <figure class="js-clock">
+      <p>
+        <!-- 시계 --> 
+        <span class="clock">00:00</span>
+        <span class="js-weather">온도 지역</span>
+        <!-- 구름구름 -->
+        <img class="cl1"src="img/cloud1.png" alt=""/>
+        <img class="cl2"src="img/cloud2.png" alt=""/>
+      </p>
+    </figure>
+    <!-- 테마 변경 메뉴 -->
+    <nav>
+      <ul>
+        <li><a href="#"> morning </a></li>
+        <li><a href="#"> afternoon </a></li>
+        <li><a href="#"> evening </a></li>
+        <li><a href="#"> night </a></li>
+      </ul>
+    </nav>
+  </div>
+  <script src="js/change.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/gretting.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/todo.js"></script>
+</body>
+</html>
